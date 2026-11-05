@@ -1,0 +1,65 @@
+Couleur      places  passagers
+blue             24         24 
+brown           120         60   <-- ecart -60
+cyan             96         52   <-- ecart -44
+dark_blue        40         88   <-- ecart 48
+green            40         40 
+orange           96         28   <-- ecart -68
+pink            120         60   <-- ecart -60
+purple          104         52   <-- ecart -52
+red             208         40   <-- ecart -168
+yellow          128         68   <-- ecart -60
+Donnees partielles : objectif = faire entrer tous les passagers connus dans la boucle.
+  ... 1M etats, 573586 distincts, record 89
+  ... 2M etats, 1125931 distincts, record 89
+  ... 3M etats, 1648014 distincts, record 89
+  ... 4M etats, 2174717 distincts, record 90
+  ... 5M etats, 2660398 distincts, record 90
+  ... 6M etats, 3162189 distincts, record 90
+  ... 7M etats, 3691699 distincts, record 90
+  ... 8M etats, 4201565 distincts, record 90
+  ... 9M etats, 4684729 distincts, record 90
+  ... 10M etats, 5158735 distincts, record 90
+  ... 11M etats, 5667000 distincts, record 90
+  ... 12M etats, 6148612 distincts, record 90
+  ... 13M etats, 6648976 distincts, record 90
+  ... 14M etats, 7136243 distincts, record 90
+  ... 15M etats, 7604530 distincts, record 90
+  ... 16M etats, 8074356 distincts, record 90
+  ... 17M etats, 8517021 distincts, record 90
+  ... 18M etats, 8966617 distincts, record 90
+  ... 19M etats, 9399589 distincts, record 90
+  ... 20M etats, 9802435 distincts, record 90
+  ... 21M etats, 10212414 distincts, record 90
+  ... 22M etats, 10609933 distincts, record 90
+  ... 23M etats, 11002758 distincts, record 90
+Recherche exhaustive : aucune solution dans ce modele.
+Meilleure progression : 90 rangees embarquees, via :
+  Sortir YELLOW_CAR_TOP (place 1)
+  Sortir PINK_CAR_TOP (place 1)
+  Sortir BROWN_CAR_TOP (place 1)
+  Sortir ORANGE_CAR_TOP (place 1)
+  Sortir CYAN_VAN_BOT (place 1)
+  Sortir PURPLE_CAR_TOP (place 1)
+  Sortir YELLOW_VAN_MID2 (place 1)
+  Sortir RED_CAR_TOP (place 1)
+  Sortir ORANGE_VAN_MID (place 1)
+  Sortir PURPLE_VAN_MID (place 2)
+  Sortir RED_VAN_BOT (place 3)
+  Sortir BROWN_VAN_BOT (place 4)
+  Sortir RED_VAN_BOT2 (place 2)
+  Sortir YELLOW_VAN_BOT2 (place 4)
+  Sortir PINK_VAN_MID2 (place 4)
+  Sortir PINK_CAR_MID (place 4)
+  Sortir RED_CAR_TOP2 (place 3)
+  Sortir CYAN_VAN_MID (place 4)
+  Sortir BLUE_VAN_MID (place 4)
+  Sortir BROWN_VAN_MID (place 4)
+Situation a ce moment-la (aucune suite ne fait embarquer plus de rangees) :
+  Place 1 : ORANGE_VAN_MID = orange 12/24
+  Place 2 : RED_VAN_BOT2 = red 0/24
+  Place 3 : RED_CAR_TOP2 = red 0/16
+  Place 4 : BROWN_VAN_MID = brown 20/24
+  Boucle (35/35 rangees) : pinkx1 yellowx1 greenx10 cyanx1 dark_bluex19 purplex3
+  En attente hors boucle (3 rangees) : dark_bluex3
+Etats explores : 23560830
