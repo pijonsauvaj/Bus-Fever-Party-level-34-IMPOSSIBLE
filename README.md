@@ -61,3 +61,13 @@ javac -encoding UTF-8 -d out src/puzzle/PuzzleSolver.java
 java -Xmx20g -Xss256m -cp out puzzle.PuzzleSolver
 ```
 La recherche complète demande beaucoup de mémoire, d'où le `-Xmx20g`. On peut passer en argument le nombre maximal d'états à explorer (100 millions par défaut). Le niveau est décrit dans la méthode `createLevelBusFever()` de [PuzzleSolver.java](src/puzzle/PuzzleSolver.java). Pour en modéliser un autre, il suffit d'y déclarer les véhicules, leurs dépendances et les passagers.
+
+
+## UML
+Premier:
+![Capture du premier UML](images/pUML.jpeg)
+
+Second:
+![Capture du second UML](images/sUML.jpg)
+
+Désolé pour la qualité, j'avais la flemme (j'ai même pas écrit les méthodes).
